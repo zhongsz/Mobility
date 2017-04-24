@@ -1,0 +1,41 @@
+{
+	"name": "Mobility",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest",
+		"build": "node_modules/.bin/tsc",
+		"runapp":"react-native run-android",
+    	"runios":"react-native run-ios"
+	},
+	"dependencies": {
+		"react": "^15.4.2",
+		"react-native": "^0.42.3",
+		"@types/react": "^15.0.20",
+		"@types/react-native": "^0.42.16",
+		"redux": "^3.6.0",
+		"redux-observable": "^0.14.1",
+    	"@types/redux": "^3.6.0",
+		"@types/redux-persist": "^4.3.1",
+		"redux-persist": "^4.5.0",
+		"react-redux": "^5.0.3",
+		"@types/react-redux": "^4.4.38",
+		"react-native-router-flux": "^3.38.0"
+
+
+
+
+
+	},
+	"devDependencies": {
+		"babel-jest": "19.0.0",
+		"babel-preset-react-native": "1.9.1",
+		"jest": "19.0.2",
+		"react-test-renderer": "^15.4.2",
+		"typescript": "^2.2.2"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}
